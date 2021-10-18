@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Poppins&family=Ubuntu&family=Sacramento&family=Baloo+Bhaina+2:wght@500&display=swap");
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+/* font-family: 'Sacramento', cursive; */
+* {
+  margin: 0;
+  padding: 0;
+}
+*::selection {
+  background: #faec2773;
+}
+html::-webkit-scrollbar {
+  width: 0.5rem;
+}
+html::-webkit-scrollbar-track {
+  background: #222;
+}
+html::-webkit-scrollbar-thumb {
+  background: #ff6100;
+  border-radius: 20px;
+}
+body {
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ck-editor__editable_inline {
+  min-height: 300px;
+}

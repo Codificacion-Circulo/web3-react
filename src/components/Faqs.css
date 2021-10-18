@@ -1,0 +1,36 @@
+:root {
+  --blue-color: #1B04A1;
+}
+.faq-row-wrapper{
+border-radius:16px;
+background-color: whitesmoke;
+margin:0 8rem;
+}
+
+.faq-body{
+margin: 1rem;
+padding: 2rem;
+}
+
+.faq-row{
+  border: none;
+  margin: 1rem;
+}
+
+.row-title {
+
+  margin:0 1rem;
+}
+
+.row-title-text{
+  padding:0 1rem;
+  color: var(--blue-color);
+}
+
+.row-content-text{
+  margin:0 2rem;
+}
+
+.row-content-text p{
+  color: black;
+}

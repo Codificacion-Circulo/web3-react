@@ -1,0 +1,96 @@
+.card {
+    font-family: 'Heebo';
+    --bg-filter-opacity: 0.5;
+    height: 16.1rem;
+    width: 18rem;
+    margin: 1rem 2rem;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    border-radius: 1em;
+    padding: 0.5rem;
+    /*margin: 2em;*/
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background: rgba(48, 90, 145, 0.925);
+    box-shadow: 0 0 2em -1em rgba(0, 0, 0, 0.664);
+    transition: all, 0.5s;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+  }
+  
+  .card:hover {
+    transform: rotate(0);
+  }
+  
+  
+  .card h1 {
+    padding: 1rem;
+    margin: 0;
+    font-size: 1.8rem;
+    line-height: 1.2em;
+
+    color: #05ffa1;
+    transition: all 0.5s ease-in;
+  }
+  .card:hover h1{
+      color:#ff6100;
+    }
+  .card p {
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Open Sans';
+    color: black;
+    margin-top: 0.5em;
+    line-height: 2rem;
+    
+  }
+  
+  
+  
+  .card .date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 0.75em;
+    padding: 1em;
+    line-height: 1em;
+    opacity: .8;
+  }
+  
+  .card:before, .card:after {
+    content: '';
+    transform: scale(0);
+    transform-origin: top left;
+    border-radius: 50%;
+    position: absolute;
+    left: -50%;
+    top: -50%;
+    z-index: -5;
+    transition: all,0.5s;
+    transition-timing-function: ease-in-out;
+  }
+  
+  .card:before {
+    background: #05ffa1;
+    width: 250%;
+    height: 250%;
+  }
+  
+  .card:after {
+    background: white;
+    width: 200%;
+    height: 200%;
+  }
+  
+  .card:hover {
+    color:#3c3163;
+  }
+  
+  .card:hover:before, .card:hover:after {
+    transform: scale(1);
+  }
+  
+  

@@ -1,0 +1,34 @@
+
+.containerss{
+    margin:5rem;
+    padding:3rem;
+    margin-top: 8rem;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.containerss i {
+    margin-top:5rem;
+    font-size: 10rem;
+    color: #1c04a1d0;
+}
+
+.containerss h1{
+    margin: 4rem;
+    margin-top:1rem;
+    font-size: 3rem;
+    margin-bottom: 0rem;
+    align-items:center;
+    justify-content: center;
+    color: #1B04A1;
+}
+.containerss p{
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    align-items:center;
+    justify-content: center;
+    color: #1B04A1;
+}
